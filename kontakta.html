@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakta - R. Hotell</title>
+    <meta name="description" content="Kontakta oss här! R. hotell i Malmö är centralt belägna nära lokala sevärdheter och bekvämligheter">
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <img src="logo.webp" alt="R Hotell logo">
+        <img src="hotell.webp" alt="bild av ett hotell">
+    </header>
+
+    <nav class="topnav" id="myTopnav">
+        <a class="active">Kontakta</a>
+        <a href="valkommen.html">Välkommen</a>
+        <a href="boka.html">Boka</a>
+        <a href="hitta.html">Hitta</a>
+        <a href="kontakta.html">Kontakta</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">≡</a>
+    </nav>
+
+    <main id="k">
+        <article id="k1">
+            <form action="action_page.php">
+                <div class="row">
+                  <div class="label">
+                    <label for="fname">Förnamn</label>
+                  </div>
+                  <div class="input">
+                    <input type="text" id="fname" name="firstname" required>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="label">
+                    <label for="lname">Efternamn</label>
+                  </div>
+                  <div class="input">
+                    <input type="text" id="lname" name="lastname" required>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="label">
+                    <label for="email">E-post</label>
+                  </div>
+                  <div class="input">
+                    <input type="email" id="email" name="email" required>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="label">
+                    <label for="reason">Anledning till kontakt</label>
+                  </div>
+                  <div class="input">
+                    <select id="reason" name="reason">
+                      <option value="cancellation">avbokning</option>
+                    <option value="reservation">rumsreservation</option>
+                    <option value="feedback">feedback</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <input type="submit" value="Fortsätt">
+                </div>
+                
+              </form>
+        </article>
+
+        <article id="k2">
+            <h1>Kontakta oss</h1>
+            <p>Ring: +46 000000</p>
+            <br>
+            <p>Vänligen fyll i formuläret så hör vi av oss till dig så snart 
+            vi kan.</p> 
+            <br>  
+            <p>För att vi ska kunna hjälpa dig snabbare kan du ge oss så 
+            mycket information som möjligt gällande din fråga, t.ex. en 
+            länk till erbjudandet, önskade datum, erbjudandets titel m.m.</p>
+        </article>
+    </main>
+
+    <footer>@Lorem ipsum | dolor sit amet | consectetur adipiscing</footer>
+    </div>
+
+    <script defer src="script.js"></script>
+</body>
+</html>
