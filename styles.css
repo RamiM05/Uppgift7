@@ -26,6 +26,8 @@ img:first-child {
 
 img {
     object-fit: cover;
+    height: 200px;
+    overflow: hidden;
 }
 
 nav {
