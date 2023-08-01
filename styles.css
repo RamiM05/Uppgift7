@@ -27,6 +27,7 @@ img:first-child {
 img {
     object-fit: cover;
     width: calc(100vw - 25pt - 200px);
+    max-width: 100%;
 }
 
 nav {
