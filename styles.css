@@ -22,14 +22,11 @@ header {
 
 img:first-child {
     margin: 0 12.5pt;
-    width: 200px;
-    height: 200px;
 }
 
 img {
     object-fit: cover;
-    height: 200px;
-    overflow: hidden;
+    width: calc(100vw - 25pt - 200px);
 }
 
 nav {
