@@ -21,14 +21,15 @@ header {
     background-color: #fff;
 }
 
-img:first-child {
-    margin: 0 12.5pt;
-}
-
 img {
     object-fit: cover;
-    width: calc(100% - 25pt - 200px);
+    width: auto;
     max-width: 100%;
+}
+
+img:first-child {
+    width: 200px;
+    margin: 0 12.5pt;
 }
 
 nav {
